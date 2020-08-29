@@ -33,4 +33,4 @@ Full C++ sources are provided in the `src` folder. The `include` directory conta
 
 If you have questions, please send me a message at fzymodel@maennle.org
 
-![image](https://github.com/ManfredMaennle/fzymodel/blob/master/example_gauss_short_description.pdf)
+![image](https://github.com/ManfredMaennle/fzymodel/blob/master/example_gauss_short_description.png)
