@@ -1,0 +1,18 @@
+/** @name       Introduction
+
+    The #fzymodel# package provides a set of tools to build and
+    evaluate TSK-type neuro-fuzzy model.
+
+    In order to make investigations and results easier to reproduce
+    it is recommended to use #fzymodel# and its derivatives through
+    shell scripts or similar. Therefore, all the tools are command
+    line based and provide options to set relevant parameters.
+
+    For a usage description type #fzymodel -h#, #fzyestim -h#, #fzysimul -h#, 
+    #fzymkdat -h#, or #fzy2sets -h#.
+    
+    The algorithm for structure and parameter optimization (deep learning)
+    is described in my scientific papers and PhD thesis.
+*/
+
+// Now, let's {\em consider} how ``quotes'' look like.

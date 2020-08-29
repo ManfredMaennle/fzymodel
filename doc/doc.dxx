@@ -1,0 +1,58 @@
+/**@name fzymodel
+ * 
+ * \begin{center}
+ *      {\Large{\bf Takagi/Sugeno/Kang Fuzzy Modeling}}
+ * \end{center}
+ * 
+ * #fzymodel# is a collection of tools for fully automatic modeling of Takagi/Sugeno/Kang-type
+ * neuro-fuzzy models (systems identification), normalization of data sets, and systems simulation.
+ *
+ * Here is a list of highlights:
+ * \begin{itemize}
+ * \item sigmoidal or trapezoidal fuzzy sets
+ * \item RPROP and SVD parameter optimization (deep learning), heuristic search of fuzzy rules
+ *   (#fzymodel#)
+ * \item estimation, i.e. one-step prediction (#fzyestim#)
+ * \item simulation, i.e. multiple step prediction (#fzysimul#)
+ * \item LaTeX output of fuzzy rules, graphical visualization of fuzzy sets
+ *   (#fzy2sets#)
+ * \item normalization of input data (#fzymkdat#)
+ * \end{itemize}
+ * 
+ * For an introduction to the
+ * philosophy of \verb|fzymodel| go on reading the \Ref{Introduction}.  
+ *
+ * \begin{center}
+ *      {\Large{\bf }}
+ * \end{center}
+ * 
+ * @memo        A neuro-fuzzy modeling tool
+ * @version     2.9 as of 29 July 2020
+ * @author      Manfred M\"annle, 2020
+ */
+//@{
+    //@Include: ../doc/license.dxx
+    //@Include: ../doc/intro.dxx
+    //@Include: ../doc/install.dxx
+
+    /** @name Code description
+     */
+    //@{
+        //@Include: ./main.hh
+        //@Include: ./global.hh
+	/** @name Main modules
+	 */	
+	//@{
+            //@Include: ./fzymodel.hh
+            //@Include: ./fzyestim.hh
+            //@Include: ./fzy2sets.hh
+            //@Include: ./fzymkdat.hh
+	//@}
+        //@Include: ./fmodel.hh
+        //@Include: ./data.hh
+        //@Include: ./svd.hh
+        //  //@Include: ./normlse.hh
+        //  //@Include: ./*.hh
+    //@}
+
+//@}

@@ -1,0 +1,36 @@
+/** @name       Installation
+
+    For installation go to the #src# directory, edit the #Makefile#
+    (in particular the destination path), and type #make install#.
+
+    The installation is tested for Sun Solaris and Linux. You
+    must use GNU make, gcc is recommended. You need to have 
+    the TNT (template numerical toolkit) library installed;
+    set the include path #INCPATH# accordingly. You need to have
+    #flex# and #bison# properly installed.
+
+    To remake the documentation you need #doc++# version 3.3 or later
+    and #pdflatex#. For this, go to the #src# directory and type #make doc#,
+    then go to the #doc/tex# directory and check #doc.pdf#.
+   
+    If you encounter problems during installation or usage, contact
+    the author at #fzymodel@maennle.org#.
+
+    The source code is split into the files:
+    \begin{itemize}
+    \item #global.{hh|cc}#: command line options and global variables
+      and functions
+    \item #main.{hh|cc}#: parse command line, print help, catch exceptions
+    \item #fzymodel.{hh|cc}#: TSK modeling
+    \item #fzyestim.{hh|cc}#: estimation, one-step prediction
+    \item #fzysimul.{hh|cc}#: simulation, multiple step prediction
+    \item #fzy2sets.{hh|cc}#: print tex description of a model
+    \item #fzymkdat.{hh|cc}#: prepare (normalize) training/validation data
+    \item #fmodel.{hh|cc}#: fuzzy model class
+    \item #data.{hh|cc}#: training/validation data class
+    \item #svd.{hh|cc}#: singular value decomposition
+    \item #data_lex.{l|h}#: parse data files
+    \item #fzy_prs.y, fzy_lex.{l|h}#: parse fuzzy model files (#.fzy#)
+    \end{itemize}
+
+*/
