@@ -1,0 +1,69 @@
+%%% LaTeX2e standard document template, Manfred Maennle, July 1998
+
+
+%%%% flags: yes = true, no = false
+\def\true{\yes}
+\def\false{\no}
+
+%%%% set this document as a master document
+\def\wholedocument{\yes}
+
+
+\NeedsTeXFormat{LaTeX2e} 
+\typeout{ }
+\typeout{ *** $Id$ *** }
+\typeout{ }
+
+%%% document class
+\documentclass[12pt,a4paper]{report}
+%\documentclass[12pt,a4paper,twoside,twocolumn]{report}
+
+\input{tex_common}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  FURTHER PACKAGES 
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+%\usepackage{times,mathptm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   FURTHER MACROS
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%   LAYOUT   LAYOUT   LAYOUT   LAYOUT   LAYOUT   LAYOUT   LAYOUT  
+
+%%% page style
+%\pagestyle{empty}
+\pagestyle{plain}
+
+%%% paragraph layout
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 2pt minus 1pt}
+\frenchspacing
+\sloppy           
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  DOCUMENT   DOCUMENT   DOCUMENT   DOCUMENT   DOCUMENT   DOCUMENT 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document} %%% **************************************************
+
+
+\input{mod_c1_r5}
+
+\newpage
+
+\input{mod_c3_r5}
+
+
+\end{document} %%% ****************************************************
+%%% EOF
