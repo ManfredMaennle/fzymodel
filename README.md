@@ -11,7 +11,7 @@ The tool set includes
  - `fzysimul`: simulation run (multi-step prediction with feedback)
  - `fzy2sets`: create LaTeX file describing the fuzzy model
 
-The main innovation of this tool set is the iterative, data based approach for creating and refining TSK fuzzy models using various optimization algorithms from numerics and neural network training (deep learning). Descriptions can be found in my scientific papers, cf. to the `.\examples` folder.
+The main innovation of this tool set is the iterative, data based approach for creating and refining TSK fuzzy models using various optimization algorithms from numerics and neural network training (deep learning). Descriptions can be found in my scientific papers, cf. to the `.\examples` folder, e.g. the [structure search and parameter learning algorithm.](https://github.com/ManfredMaennle/fzymodel/blob/master/examples/gauss_19990901_eufit99.pdf)
 
 
 ## EXAMPLES
